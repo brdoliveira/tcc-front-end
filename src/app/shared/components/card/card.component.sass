@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  &.flex-row-reverse {
+    .card-img {
+      order: 2;
+    }
+    .card-body {
+      order: 1;
+    }
+  }
+}
+
+.card-img {
+  width: 40%;
+  object-fit: cover; // Assegura que a imagem cubra a área designada sem distorcer
+}
+
+.card-body {
+  padding: 1rem;
+  width: 60%;
+}

@@ -1,0 +1,10 @@
+<div
+  class="card d-flex flex-row"
+  [ngClass]="{ 'flex-row-reverse': !isTextRight }"
+>
+  <img [src]="imageUrl" class="card-img" alt="Card image" />
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <p class="card-text">{{ content }}</p>
+  </div>
+</div>
