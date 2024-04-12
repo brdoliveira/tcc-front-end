@@ -1,0 +1,20 @@
+/* Estilos para a home */
+.container-fluid {
+    padding: 20px;
+}
+
+app-sidebar {
+    padding: 10px;
+    background-color: #f8f9fa;
+    min-height: 100vh; // Altura mínima para cobrir toda a altura da viewport
+    border-right: 1px solid #dee2e6;
+}
+
+app-card {
+    margin-top: 20px;
+}
+
+app-footer {
+    margin-top: 20px;
+    width: 100%;
+}

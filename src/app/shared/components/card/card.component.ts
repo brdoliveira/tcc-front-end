@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'card',
+  selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.sass']
+  styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
   @Input() imageUrl: string = '';

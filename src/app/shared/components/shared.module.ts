@@ -12,6 +12,11 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CardComponent,
+    SidebarComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
