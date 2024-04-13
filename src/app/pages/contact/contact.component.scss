@@ -1,0 +1,17 @@
+.map-container {
+    display: flex;
+    align-items: stretch;
+
+    #map {
+        width: 70%;
+        height: 100%;
+        flex-grow: 1;
+    }
+
+    .info-panel {
+        width: 30%;
+        padding: 20px;
+        background-color: #f8f9fa;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
