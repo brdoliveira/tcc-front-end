@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from './card/card.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { BoxComponent } from './box/box.component';
+import { VerticalSidebarComponent } from './vertical-sidebar/vertical-sidebar.component';
 
 @NgModule({
   declarations: [
     CardComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    BoxComponent,
+    VerticalSidebarComponent
   ],
   imports: [
     CommonModule
@@ -16,7 +20,9 @@ import { FooterComponent } from './footer/footer.component';
   exports: [
     CardComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    BoxComponent,
+    VerticalSidebarComponent
   ]
 })
 export class SharedModule { }
