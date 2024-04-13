@@ -1,3 +1,6 @@
-<app-sidebar></app-sidebar>
+<app-sidebar *ngIf="!(authService.isLoggedIn$ | async)"></app-sidebar>
+<app-vertical-sidebar *ngIf="authService.isLoggedIn$ | async"></app-vertical-sidebar>
+
 <router-outlet></router-outlet>
-<app-footer></app-footer>
+
+<app-footer *ngIf="!(authService.isLoggedIn$ | async)"></app-footer>
